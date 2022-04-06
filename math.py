@@ -15,7 +15,7 @@ gui.resizable(False, False)
 gui.title("Math")
 gui.configure(bg='#0079fb')
 
-image1 = Image.open("media/zoz.jpg")
+image1 = Image.open("zoz.jpg")
 test = ImageTk.PhotoImage(image1)
 
 label1 = t.Label(gui, image=test)
