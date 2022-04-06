@@ -15,22 +15,22 @@ root.configure(bg='#99cceb')
 
 
 ###############################
-image1 = Image.open("media/cherag-rahnama.png")
+image1 = Image.open("cherag-rahnama.png")
 test1 = ImageTk.PhotoImage(image1)
 
-image2 = Image.open("media/dander.png")
+image2 = Image.open("dander.png")
 test2 = ImageTk.PhotoImage(image2)
 
-image3 = Image.open("media/dast-andaz.png")
+image3 = Image.open("dast-andaz.png")
 test3 = ImageTk.PhotoImage(image3)
 
-image5 = Image.open("media/dor-zadan-mamno.png")
+image5 = Image.open("dor-zadan-mamno.png")
 test5 = ImageTk.PhotoImage(image5)
 
-image4 = Image.open("media/rizesh-sang.png")
+image4 = Image.open("rizesh-sang.png")
 test4 = ImageTk.PhotoImage(image4)
 
-image6 = Image.open("media/tavaghof-mamno.png")
+image6 = Image.open("tavaghof-mamno.png")
 test6 = ImageTk.PhotoImage(image6)
 
 image7 = Image.open("media/vorod-mamno.png")
