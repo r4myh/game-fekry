@@ -50,7 +50,7 @@ def abot():
     win.resizable(False, False)
     win.configure(bg='#a1def8')
 
-    url1 = 'https://github.com/r4myh'
+    url1 = 'https://github.com/r4myh/game-fekry'
     t.Label(win, text='my github : {0}'.format(url1), bg='#0173f8',fg='#a1def8').pack()
 
     url2 = 'https://www.instagram.com/0day_online'
@@ -66,7 +66,7 @@ def draw_visitor():
     for widget in dashboard.winfo_children():
         widget.destroy()
     
-    image1 = Image.open("media/gdg.jpg")
+    image1 = Image.open("gdg.jpg")
     test = ImageTk.PhotoImage(image1)
     label1 = t.Label(dashboard,image=test)
     label1.photo = test
